@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Galería de obras | W+ OBRA</title>
+  <meta name="description" content="Galería de trabajos de W+ OBRA. Espacio listo para fotografías reales de construcción y acabados, sin deformar las imágenes.">
+  <link rel="canonical" href="galeria.html">
+  <meta property="og:title" content="Galería de obras | W+ OBRA">
+  <meta property="og:description" content="Muestra visual de trabajos de W+ OBRA. Se actualiza con fotos reales del taller y de la obra.">
+  <meta property="og:image" content="assets/brand/logo-mark.jpg">
+  <link rel="icon" href="assets/brand/logo-mark.jpg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Galería W+ OBRA",
+    "description": "Trabajos realizados de construcción y servicios integrales"
+  }
+  </script>
+</head>
+<body data-page="galeria">
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header" data-header>
+    <div class="wrap header-inner">
+      <a class="logo-link" href="index.html">
+        <img class="logo-full" src="assets/brand/logo-header.jpg" width="280" height="58" alt="W+ OBRA, construcción y servicios integrales">
+        <img class="logo-mark" src="assets/brand/logo-mark.jpg" width="48" height="48" alt="W+ OBRA">
+      </a>
+      <nav class="nav-desktop" data-nav aria-label="Principal">
+        <a href="index.html" data-nav-key="inicio">Inicio</a>
+        <a href="nosotros.html" data-nav-key="nosotros">Nosotros</a>
+        <a href="servicios.html" data-nav-key="servicios">Servicios</a>
+        <a href="galeria.html" data-nav-key="galeria">Galería</a>
+        <a href="contacto.html" data-nav-key="contacto">Contacto</a>
+      </nav>
+      <a class="btn btn-primary header-cta" data-requires-whatsapp hidden target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      <button class="menu-toggle" type="button" data-open-menu aria-label="Abrir menú">
+        <img src="assets/brand/logo-mark.jpg" alt="">
+      </button>
+    </div>
+  </header>
+  <div class="nav-mobile" data-mobile-nav aria-hidden="true">
+    <div class="nav-mobile-top">
+      <img src="assets/brand/logo-mark.jpg" width="56" height="56" alt="W+ OBRA" style="border-radius:14px;object-fit:cover">
+      <button class="close-menu" type="button" data-close-menu aria-label="Cerrar menú">Cerrar</button>
+    </div>
+    <nav data-nav aria-label="Móvil">
+      <a href="index.html" data-nav-key="inicio">Inicio</a>
+      <a href="nosotros.html" data-nav-key="nosotros">Nosotros</a>
+      <a href="servicios.html" data-nav-key="servicios">Servicios</a>
+      <a href="galeria.html" data-nav-key="galeria">Galería</a>
+      <a href="contacto.html" data-nav-key="contacto">Contacto</a>
+    </nav>
+  </div>
+
+  <main id="contenido">
+    <header class="page-hero wrap">
+      <p class="eyebrow">Galería</p>
+      <h1>Trabajos realizados</h1>
+      <p class="muted">Solo fotografías reales del negocio. No usamos bancos de imágenes para fingir un portafolio.</p>
+    </header>
+
+    <section class="section" style="padding-top:8px" data-gallery>
+      <div class="wrap">
+        <div class="gallery-toolbar" role="toolbar" aria-label="Filtrar galería">
+          <button class="chip is-active" type="button" data-filter="all">Todos</button>
+          <button class="chip" type="button" data-filter="obra">Obra</button>
+          <button class="chip" type="button" data-filter="acabados">Acabados</button>
+          <button class="chip" type="button" data-filter="integral">Integral</button>
+        </div>
+        <div class="gallery-grid" data-gallery-grid></div>
+        <div class="empty-gallery" data-gallery-empty>
+          <h2>La galería está lista</h2>
+          <p>Copia tus fotos en <code>assets/img/galeria/</code> y decláralas en <code>assets/js/gallery-data.js</code>. Cada ítem admite título, texto alternativo y categoría.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" data-lightbox role="dialog" aria-label="Imagen ampliada">
+    <img alt="">
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <img class="footer-logo" src="assets/brand/logo-header.jpg" alt="W+ OBRA">
+        <p class="muted">Construcción &amp; servicios integrales.</p>
+      </div>
+      <nav aria-label="Pie">
+        <a href="index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+      <div>
+        <a data-requires-whatsapp hidden target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      </div>
+    </div>
+    <div class="wrap legal">© W+ OBRA. Todos los derechos reservados.</div>
+  </footer>
+  <a class="wa-float" data-wa-float hidden target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 11.5A8.5 8.5 0 1 1 11.5 3 8.5 8.5 0 0 1 20 11.5Zm-3.2 5.2-1.7-.5a.8.8 0 0 0-.7.1l-1 1a7 7 0 0 1-3.3-3.3l1-1a.8.8 0 0 0 .1-.7l-.5-1.7a.8.8 0 0 0-.8-.5h-1.6a.8.8 0 0 0-.8.8 8 8 0 0 0 8 8 .8.8 0 0 0 .8-.8v-1.6a.8.8 0 0 0-.5-.8Z"/></svg>
+  </a>
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/gallery-data.js"></script>
+  <script src="assets/js/gallery.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
